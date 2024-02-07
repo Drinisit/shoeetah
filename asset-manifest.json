@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/shoeetah/static/css/main.6e8de3be.css",
+    "main.js": "/shoeetah/static/js/main.5cb9c846.js",
+    "index.html": "/shoeetah/index.html",
+    "main.6e8de3be.css.map": "/shoeetah/static/css/main.6e8de3be.css.map",
+    "main.5cb9c846.js.map": "/shoeetah/static/js/main.5cb9c846.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e8de3be.css",
+    "static/js/main.5cb9c846.js"
+  ]
+}
