@@ -23,12 +23,15 @@ function Navbar() {
 
                       
                        <div className={style.access}>
-                          <div className={style.search}>
-                            <input type='text'></input>
-                            <CiSearch />
+                          <div className={style.search_input}>
+                            <input type='text' placeholder='Search...'></input>
+                            <CiSearch className={style.search_icon} />
                           </div>
-                          <CiShoppingCart />
-                          <CiUser />
+                         
+                             <CiShoppingCart className={style.cart_icon} />
+                          
+                          
+                          <CiUser className={style.user_icon} />
                        </div>
                
             </header>
