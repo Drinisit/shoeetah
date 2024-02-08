@@ -1,14 +1,16 @@
 .header{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .h1{
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
 .nav{
-    display: inline-flex;
+    display: flex;
 }
 
 .ul{
@@ -17,3 +19,18 @@
     gap: 1rem;
     align-items: center;
 }
+
+.ul li{
+    cursor: pointer;
+}
+
+.access{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+

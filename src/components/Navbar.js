@@ -1,9 +1,9 @@
 import style from './Navbar.module.css'
+import { CiSearch, CiShoppingCart, CiUser } from "react-icons/ci";
 
 function Navbar() {
   return (
     <>
-
             <header className={style.header}>
                 <h1 className={style.h1}>Shoeeta</h1>
 
@@ -18,10 +18,18 @@ function Navbar() {
                                
                             </ul>
 
-                            <button>Login</button>
+                            
                         </nav>
 
-                    
+                      
+                       <div className={style.access}>
+                          <div className={style.search}>
+                            <input type='text'></input>
+                            <CiSearch />
+                          </div>
+                          <CiShoppingCart />
+                          <CiUser />
+                       </div>
                
             </header>
            
