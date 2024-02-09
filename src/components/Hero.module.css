@@ -1,0 +1,8 @@
+.hero{
+    height: 70vh;
+    background-image: url(../assets/shoe_hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
