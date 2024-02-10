@@ -1,9 +1,13 @@
+.main{
+    padding: 15px 0;
+    background: #f7dd95;
+}
 .hero{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background: #f7dd95;
+   
 }
 
 .hero_text{
@@ -12,4 +16,8 @@
 
 .hero_image{
     border: 1px solid red;
+}
+
+.vans, img{
+    height: 200px;
 }
