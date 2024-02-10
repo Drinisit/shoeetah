@@ -1,8 +1,15 @@
 .hero{
-    height: 70vh;
-    background-image: url(../assets/shoe_hero.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #f7dd95;
+}
+
+.hero_text{
+    border: 1px solid red;
+}
+
+.hero_image{
+    border: 1px solid red;
 }
