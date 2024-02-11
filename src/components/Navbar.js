@@ -11,8 +11,8 @@ function Navbar() {
             <header className={styles.navbar}>  
                 <h1 className={styles.logo}>Shoeeta</h1>
 
-                        <nav >
-                            <ul className={nav ? [styles.menu, styles.active].join(' ') : [styles.menu]}>
+                        <nav className={styles.menu} >
+                            <ul className={nav ? [styles.list, styles.active].join(' ') : [styles.list]}>
                                 <li>Men</li>
                                 <li>Women</li>
                                 <li>Kids</li>

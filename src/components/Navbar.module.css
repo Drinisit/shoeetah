@@ -29,16 +29,24 @@
 
 .menu{
     display: flex;
+}
+
+.menu ul li{
+    margin-left: 1rem;
+}
+
+.list{
+    display: flex;
     align-items: center;
 }
 
-.menu ul{
+.list ul{
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
-.menu li{
+.list li{
     cursor: pointer;
 }
 
@@ -60,6 +68,7 @@
 }
 
 input{
+    border: none;
     background: #f4f4f4;
 }
 
@@ -84,7 +93,7 @@ input:focus{
         z-index: 10;
     }
 
-    .menu{
+    .list{
         display: flex;
         flex-direction: column;
         justify-content: center;
