@@ -1,42 +1,52 @@
-import style from './Navbar.module.css'
+import React, {useState} from 'react';
+import styles from './Navbar.module.css'
 import { CiSearch, CiShoppingCart, CiUser } from "react-icons/ci";
+import { IoMenu, IoClose } from "react-icons/io5";
 
 function Navbar() {
+  const [nav, setNav] = useState(false);
+
   return (
     <>
-            <header className={style.header}>
-                <h1 className={style.h1}>Shoeeta</h1>
-                 
-                        <nav className={style.nav}>
-                            <ul className={style.ul}>
+            <header className={styles.navbar}>  
+                <h1 className={styles.logo}>Shoeeta</h1>
+
+                        <nav className={nav ? [styles.menu, styles.active].join(' ') : [styles.menu]}>
+                            <ul>
                                 <li>Men</li>
                                 <li>Women</li>
                                 <li>Kids</li>
                                 <li>Trends</li>
-                                <li>New Arrival</li>
-                               
+                                <li>New Arrival</li> 
                             </ul>
 
-                            <div className={style.access}>
-                                <div className={style.search_input}>
+                            <div className={styles.access}>
+
+                                <div className={styles.searchbar}>
                                   <input type='text' placeholder='Search...'></input>
-                                  <CiSearch className={style.search_icon} />
+                                  <CiSearch size={20} />
+
                                 </div>
                               
-                                  <CiShoppingCart className={style.cart_icon} />
-                            
-                                  <CiUser className={style.user_icon} />
+                                  <CiShoppingCart className={styles.cart_icon} />
+                                  <CiUser className={styles.user_icon} />
+
+                            </div>
+
+                            <div onClick={() => setNav(!nav)} className={styles.mobile_btn}>
+
+                                {nav ? <IoClose size={20}/>: <IoMenu size={20} />}
+
+                              
+                                
                             </div>
                             
-                        </nav>
-
-                      
-                       
+                        </nav>        
                
             </header>
-           
-
         
+
+
     </>
   )
 }
