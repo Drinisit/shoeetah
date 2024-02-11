@@ -84,12 +84,12 @@ input:focus{
         z-index: 10;
     }
 
-    .menu,ul{
+    .menu{
         display: flex;
         flex-direction: column;
         justify-content: center;
         position: fixed;
-        left: 0;
+        left: -100%;
         right: 0;
         top: 0;
         bottom: 0;
@@ -98,6 +98,10 @@ input:focus{
         background-color: #f4f4f4;
         z-index: 10;
         transition: left 1s;
+    }
+
+    .active{
+        left: 0;
     }
 
     .access{
