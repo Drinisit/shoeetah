@@ -26,31 +26,21 @@
 }
 
 .searchbar{
-    display: flex;
-    align-items: center;
-    padding: 5px 15px;
-    background: #f4f4f4;
-    border: 1px solid #000;
-    border-radius: 1rem;
+    display: none;
 }
 
-input{
-    border: none;
-    background: #f4f4f4;
+.search_icon{
+    font-size: 1.1rem;
 }
-
-input:focus{
-    outline: none;
-}
-
-.cart_icon, .user_icon{
+.cart_icon, .user_icon, .search_iconMob{
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
 .mobile_btn{
     display: block;
     position: absolute;
-    padding-top: 0.4rem;
+    padding-top: 0.2rem;
     right: 1.5rem;
 }
 
@@ -92,11 +82,30 @@ input:focus{
     }
 
     .access{
-        margin: 0 0 0 1rem;
+        margin: 0 0 0 1.3rem;
+    }
+
+    .searchbar{
+        display: flex;
+        align-items: center;
+        padding: 5px 15px;
+        background: #f4f4f4;
+        border: 1px solid #000;
+        border-radius: 1rem;
     }
     
+    input{
+        border: none;
+        background: #f4f4f4;
+    }
+    
+    input:focus{
+        outline: none;
+    }
 
-
+    .search_iconMob{
+        display: none;
+    }
 
    
 }
