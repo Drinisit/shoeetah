@@ -21,8 +21,8 @@
     display: flex;
     gap: 0.5rem;
     align-items: center;
-    margin-left: 1rem;
-    
+    margin-right: 2rem;
+    transition: ease-in-out 0.4s;
 }
 
 .searchbar{
@@ -73,10 +73,6 @@ input:focus{
 }
 
 @media screen and (min-width: 768px){
-    .logo {
-        font-size: 1.3rem;
-        background: skyblue;
-    }
 
     .mobile_btn{
         display: none;
@@ -93,6 +89,10 @@ input:focus{
     
     .list li{
         cursor: pointer;
+    }
+
+    .access{
+        margin: 0 0 0 1rem;
     }
     
 
