@@ -22,12 +22,12 @@ function Navbar() {
 
                             <div className={styles.access}>
 
-                                <div className={styles.searchbar}>
-                                  <input className={styles.nav_search} type='text' placeholder='Search...'></input>
-                                  <CiSearch className={styles.search_icon}/>
+                                <div className={styles.searchBar}>
+                                  <input type='text' placeholder='Search...'></input>
+                                  <CiSearch className={styles.searchBar_iconSearch}/>
                                 </div>
                                   
-                                  <CiSearch className={styles.search_iconMob}/>
+                                  <CiSearch className={styles.search_icon}/>
                                   <CiShoppingCart className={styles.cart_icon} />
                                   <CiUser className={styles.user_icon} />
 
@@ -50,13 +50,21 @@ function Navbar() {
                
             </header>
 
-            <div className={styles.searchbar_window}>
-                              
-                              </div>
+            <div className={styles.searchBar_window}>
+                    <div className={styles.mobile_searchTab}>
+                        <div className={styles.mobile_search}> 
+                          <input className={styles.mobile_searchBar} type="text" placeholder="Search..."/>
+                          <CiSearch className={styles.mobile_searchIcon}/>
+                        </div>
+
+                       
+                          <IoClose className={styles.mobile_btnClose}/>                     
+                     
+                        
+                    </div>          
+            </div>
            
-        
-
-
+      
     </>
   )
 }
