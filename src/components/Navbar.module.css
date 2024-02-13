@@ -16,6 +16,26 @@
     display: none;
 }
 
+.list li::after{
+    content: '';
+    position: absolute;
+    background-color: #000;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: all 0.3s ease;
+}
+
+.list li:hover{
+    color: #36373a;
+}
+
+.list li:hover::after{
+    width: 100%;
+}
+
+
 
 .access{
     display: flex;
@@ -78,6 +98,7 @@
     }
     
     .list li{
+        position: relative;
         cursor: pointer;
     }
 
