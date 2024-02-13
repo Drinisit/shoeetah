@@ -31,19 +31,29 @@ function Navbar() {
                                   <CiShoppingCart className={styles.cart_icon} />
                                   <CiUser className={styles.user_icon} />
 
+                                  
+
                             </div>
 
                             <div onClick={() => setNav(!nav)} className={styles.mobile_btn}>
 
                                 {nav ? <IoClose size={20}/>: <IoMenu size={20} />}
 
-                              
-                                
                             </div>
                             
-                        </nav>        
+                           
+                            
+                        </nav>   
+
+                       
+                         
                
             </header>
+
+            <div className={styles.searchbar_window}>
+                              
+                              </div>
+           
         
 
 
