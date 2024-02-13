@@ -62,7 +62,7 @@ function Navbar() {
                             </div>
 
                           
-                              <IoClose className={styles.mobile_btnClose}/>                     
+                              <IoClose onClick={() => setSearch(!search)} className={styles.mobile_btnClose}/>                     
                         
                             
                         </div>          
