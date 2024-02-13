@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/shoeetah/static/css/main.d4c40bfc.css",
-    "main.js": "/shoeetah/static/js/main.74c75b62.js",
+    "main.css": "/shoeetah/static/css/main.c60609e0.css",
+    "main.js": "/shoeetah/static/js/main.d0344df8.js",
     "static/media/vans_hero.png": "/shoeetah/static/media/vans_hero.3e95a6ef3c3a5ed39146.png",
     "index.html": "/shoeetah/index.html",
-    "main.d4c40bfc.css.map": "/shoeetah/static/css/main.d4c40bfc.css.map",
-    "main.74c75b62.js.map": "/shoeetah/static/js/main.74c75b62.js.map"
+    "main.c60609e0.css.map": "/shoeetah/static/css/main.c60609e0.css.map",
+    "main.d0344df8.js.map": "/shoeetah/static/js/main.d0344df8.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4c40bfc.css",
-    "static/js/main.74c75b62.js"
+    "static/css/main.c60609e0.css",
+    "static/js/main.d0344df8.js"
   ]
 }
