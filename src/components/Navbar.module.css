@@ -86,7 +86,8 @@
 {/*Mobile Navigation Search*/}
 .searchBar_window{
     width: 100%;
-    height: 100vh;
+    height: calc(100% * 1.51);
+ 
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
 }
@@ -122,13 +123,17 @@
 }
 
 .mobile_searchIcon{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 
 .mobile_btnClose{
     margin-left: 8px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+}
+
+.mobile_Tab{
+    display: none;
 }
 
 

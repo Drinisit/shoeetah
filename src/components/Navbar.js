@@ -6,6 +6,8 @@ import { IoMenu, IoClose } from "react-icons/io5";
 function Navbar() {
   const [nav, setNav] = useState(false);
 
+  const [search, setSearch] = useState(true);
+
   return (
     <>
             <header className={styles.navbar}>  
@@ -27,9 +29,10 @@ function Navbar() {
                                   <CiSearch className={styles.searchBar_iconSearch}/>
                                 </div>
                                   
-                                  <CiSearch className={styles.search_icon}/>
-                                  <CiShoppingCart className={styles.cart_icon} />
-                                  <CiUser className={styles.user_icon} />
+
+                                 <CiSearch onClick={() => setSearch(!search)} className={styles.search_icon}/>
+                                 <CiShoppingCart className={styles.cart_icon} />
+                                 <CiUser className={styles.user_icon} />
 
                                   
 
@@ -50,19 +53,23 @@ function Navbar() {
                
             </header>
 
-            <div className={styles.searchBar_window}>
-                    <div className={styles.mobile_searchTab}>
-                        <div className={styles.mobile_search}> 
-                          <input className={styles.mobile_searchBar} type="text" placeholder="Search..."/>
-                          <CiSearch className={styles.mobile_searchIcon}/>
-                        </div>
+            <div className={search ? [styles.mobile_Tab] : null}>
+                <div className={styles.searchBar_window}>
+                        <div className={styles.mobile_searchTab}>
+                            <div className={styles.mobile_search}> 
+                              <input className={styles.mobile_searchBar} type="text" placeholder="Search..."/>
+                              <CiSearch className={styles.mobile_searchIcon}/>
+                            </div>
 
-                       
-                          <IoClose className={styles.mobile_btnClose}/>                     
-                     
+                          
+                              <IoClose className={styles.mobile_btnClose}/>                     
                         
-                    </div>          
+                            
+                        </div>          
+                </div>
             </div>
+            
+            
            
       
     </>
