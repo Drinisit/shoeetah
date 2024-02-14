@@ -10,9 +10,9 @@ function Hero() {
         <div className={style.hero}>
 
             <div class={style.hero_text}>
-                <h1>I am John Doe</h1>
-                <p>And I'm a Photographer</p>
-                <button>Hire me</button>
+                <h1>Shoeetah ka</h1>
+                <p>99% Discount pag single</p>
+                <button>Buy me</button>
             </div>
 
             <div className={style.hero_image}>

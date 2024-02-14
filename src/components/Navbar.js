@@ -22,6 +22,15 @@ function Navbar() {
                                 <li>New Arrival</li> 
                             </ul>
 
+                            <ul className={styles.sideBar}>
+                                <li>Men</li>
+                                <li>Women</li>
+                                <li>Kids</li>
+                                <li>Trends</li>
+                                <li>New Arrival</li> 
+                            </ul>
+                      
+
                             <div className={styles.access}>
 
                                 <div className={styles.searchBar}>
@@ -40,7 +49,7 @@ function Navbar() {
 
                             <div onClick={() => setNav(!nav)} className={styles.mobile_btn}>
 
-                                {nav ? <IoClose size={20}/>: <IoMenu size={20} />}
+                                {nav ? <IoClose className={styles.close_icon} size={20}/>: <IoMenu className={styles.menu_icon} size={20} />}
 
                             </div>
                             
@@ -70,8 +79,6 @@ function Navbar() {
             </div>
             
             
-           
-      
     </>
   )
 }
