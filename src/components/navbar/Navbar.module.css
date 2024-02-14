@@ -39,14 +39,14 @@
     gap: 1rem;
 }
 
-.menu{
+.menu {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
-.search_icon, .cart_icon{
-    font-size: 1.4rem;
+.search_icon, .cart_icon, .user_icon{
+    font-size: 1.2rem;
     cursor: pointer;
 }
 
@@ -67,14 +67,38 @@
     outline: none;
 }
 
-.mobile_btn{
+.users_access{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.mobile_btn, .mobile_closebtn{
     font-size: 1.3rem;
     display: none;
     color: var(--font-color);
+    cursor: pointer;
 }
 
 @media screen and (max-width: 768px){
     .mobile_btn{
         display: block;
+    }
+    
+
+    .menu {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        top:0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    .active{
+        left: 0;
     }
 }
