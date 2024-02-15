@@ -6,7 +6,7 @@
 
 .header{
     width: 100%;
-    height: 70px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,13 +81,17 @@
     gap: 0.5rem;
 }
 
+.searchHide_mobile{
+    display: none;
+}
+
 @media screen and (max-width: 768px){
 
     .mobile_btn{
         color: var(--font-color);
         font-size: 1.3rem;
         display: block;
-        top: 1.5rem;
+        top: 1.2rem;
         right: 1.5rem;
         position: absolute;
         cursor: pointer;
@@ -100,19 +104,19 @@
         flex-direction: column;
         justify-content: center;
         position: fixed;
-        top:0;
-        left: -100%;
+        top: -100%;
+        left: 0;
         bottom: 0;
         right: 0;
         width: 100%;
         height: 100vh;
         background-color: var(--primary-bg);
-        transition: left 1s;
+        transition: top 1s;
         z-index: 10;
     }
 
     .active{
-        left: 0;
+        top: 0;
     }
 
     .nav{
@@ -124,5 +128,38 @@
     }
     .search_icon_mobile{
         display: block;
+    }
+
+    .searchTab_mobile{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        padding: 0 1.5rem;
+        gap: 0.5rem;
+        background-color: var(--primary-bg);
+    }
+    
+    .searchInput_mobile{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 5px 10px;
+        border-radius: 1rem;
+        border: 1px solid var(--font-color);
+    }
+    
+    .searchBar_mobile{
+        width: 100%;
+        border: none;
+        background-color: transparent;
+    }
+    
+    .searchBar_mobile:focus{
+        outline: none;
+    }
+    
+    .mobile_searchBtn, .mobile_closeBtn{
+        cursor: pointer;
     }
 }

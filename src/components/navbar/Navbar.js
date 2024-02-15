@@ -9,6 +9,8 @@ function Navbar() {
 
   const [isMobile, setIsMobile] = useState(false);
 
+  const [isSearch, setIsSearch] = useState(false);
+
   return (
     <>
         <header className={styles.header}>
@@ -28,7 +30,7 @@ function Navbar() {
                     <input className={styles.searchBar} type="text" placeholder='Search' />
                         <CiSearch className={styles.search_icon}/>
                   </div>
-                  <IoSearch className={styles.search_icon_mobile}/>
+                  <IoSearch onClick={() => setIsSearch(!isSearch)} className={styles.search_icon_mobile}/>
                   <PiShoppingCartSimpleFill className={styles.cart_icon} />
                   <RiUserFill className={styles.user_icon} />
 
@@ -43,6 +45,23 @@ function Navbar() {
 
                       
         </header>
+
+        <div className={isSearch ? styles.searchHide_mobile : null}>
+            <div className={styles.searchTab_mobile}>
+                    
+                    <div className={styles.searchInput_mobile}>
+                      <input className={styles.searchBar_mobile} type='text' placeholder='Search'/>
+                      <IoSearch className={styles.mobile_searchBtn} />
+
+                    </div>
+                  
+                  <IoCloseOutline className={styles.mobile_closeBtn} />
+
+              </div>
+        </div>
+              
+
+        
     </>
   )
 }
