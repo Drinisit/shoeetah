@@ -15,37 +15,21 @@ function Navbar() {
           
             <h1 className={styles.logo}>Shoeetah</h1>
 
-            <nav className={styles.nav}>
-                <ul className={styles.menu}>
+            <nav>
+                <ul className={isMobile ? [styles.menu, styles.active].join(' ') : [styles.menu]}>
                     <li>Men</li>
                     <li>Women</li>
                     <li>Kids</li>
                     <li>Trends</li>
                     <li>New Arrival</li>
                 </ul>
-
-                <div className={styles.users_access}>
-                  <div className={styles.search}>
-                    <input className={styles.searchBar} type="text" placeholder='Search' />
-                        <CiSearch className={styles.search_icon}/>
-                  </div>
-
-                  <PiShoppingCartSimpleFill className={styles.cart_icon} />
-                  <RiUserFill className={styles.user_icon} />
-
-                  
-
-                </div>
-                
-                <div onClick={() => setIsMobile(!isMobile)}>
-                  
-                  { isMobile ? <IoCloseOutline className={styles.mobile_closebtn} /> : <IoMenuOutline className={styles.mobile_btn}/>}
-                  
-                </div>  
-                              
-                      
+          
             </nav>
-            
+            <div onClick={() => setIsMobile(!isMobile)} className={styles.mobile_btn}>
+                  
+                  { isMobile ? <IoCloseOutline  /> : <IoMenuOutline />}
+                  
+            </div>  
 
                       
         </header>
