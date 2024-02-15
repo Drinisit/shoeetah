@@ -33,18 +33,16 @@ function Navbar() {
                   <PiShoppingCartSimpleFill className={styles.cart_icon} />
                   <RiUserFill className={styles.user_icon} />
 
-                  <div onClick={() => setIsMobile(!isMobile)}>
-           
-                        {
-                          isMobile ? [<IoCloseOutline className={styles.mobile_closebtn} />] : [<IoMenuOutline className={styles.mobile_btn} />]
-                        }
-                      
-                  </div>
+                  
 
                 </div>
                 
-                    
-                      
+                <div onClick={() => setIsMobile(!isMobile)}>
+                  
+                  { isMobile ? <IoCloseOutline className={styles.mobile_closebtn} /> : <IoMenuOutline className={styles.mobile_btn}/>}
+                  
+                </div>  
+                              
                       
             </nav>
             

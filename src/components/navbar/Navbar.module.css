@@ -22,6 +22,7 @@
     background-color: #000;
     border-radius: 10px 10px 0 10px;
     cursor: pointer;
+    z-index: 9999;
 }
 
 .logo:hover{
@@ -39,7 +40,7 @@
     gap: 1rem;
 }
 
-.menu {
+.menu{
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -73,19 +74,23 @@
     gap: 0.5rem;
 }
 
-.mobile_btn, .mobile_closebtn{
-    font-size: 1.3rem;
+.mobile_btn{
     display: none;
-    color: var(--font-color);
-    cursor: pointer;
+    
 }
 
 @media screen and (max-width: 768px){
-    .mobile_btn{
+    .mobile_btn, .mobile_closebtn{
+        color: var(--font-color);
+        font-size: 1.3rem;
         display: block;
+        top: 1.5rem;
+        right: 1.5rem;
+        position: absolute;
+        cursor: pointer;
+        z-index: 9999;
     }
     
-
     .menu {
         width: 100%;
         display: flex;
@@ -96,6 +101,7 @@
         left: 0;
         bottom: 0;
         right: 0;
+        background-color: var(--primary-bg);
     }
 
     .active{
