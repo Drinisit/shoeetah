@@ -48,12 +48,12 @@
 }
 
 
-.mobile_btn{
+.mobile_btn, .search_icon_mobile{
     display: none;
     
 }
 
-.search_icon, .cart_icon, .user_icon{
+.search_icon, .search_icon_mobile ,.cart_icon, .user_icon{
     font-size: 1.2rem;
     cursor: pointer;
 }
@@ -118,5 +118,11 @@
     .nav{
         margin-right: 1.8rem;
         transition: ease 0.3s;
+    }
+    .search{
+        display: none;
+    }
+    .search_icon_mobile{
+        display: block;
     }
 }

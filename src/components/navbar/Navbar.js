@@ -3,7 +3,7 @@ import styles from './Navbar.module.css'
 import { CiSearch} from "react-icons/ci";
 import { RiUserFill } from "react-icons/ri";
 import { PiShoppingCartSimpleFill } from "react-icons/pi";
-import { IoMenuOutline, IoCloseOutline } from "react-icons/io5";
+import { IoMenuOutline, IoCloseOutline, IoSearch } from "react-icons/io5";
 
 function Navbar() {
 
@@ -28,7 +28,7 @@ function Navbar() {
                     <input className={styles.searchBar} type="text" placeholder='Search' />
                         <CiSearch className={styles.search_icon}/>
                   </div>
-
+                  <IoSearch className={styles.search_icon_mobile}/>
                   <PiShoppingCartSimpleFill className={styles.cart_icon} />
                   <RiUserFill className={styles.user_icon} />
 
