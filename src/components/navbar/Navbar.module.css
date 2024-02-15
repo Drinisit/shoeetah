@@ -33,6 +33,11 @@
     cursor: pointer;
 }
 
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
 .menu{
     display: flex;
     align-items: center;
@@ -46,6 +51,34 @@
 .mobile_btn{
     display: none;
     
+}
+
+.search_icon, .cart_icon, .user_icon{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.search{
+    display: flex;
+    align-items: center ;
+    padding: 3px 10px;
+    border-radius: 1rem;
+    border: 1px solid var(--font-color);
+}
+
+.searchBar{
+    border: none;
+    background: var(--primary-bg);
+}
+
+.searchBar:focus{
+    outline: none;
+}
+
+.users_access{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 @media screen and (max-width: 768px){
@@ -80,5 +113,10 @@
 
     .active{
         left: 0;
+    }
+
+    .nav{
+        margin-right: 1.8rem;
+        transition: ease 0.3s;
     }
 }

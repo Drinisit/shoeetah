@@ -15,7 +15,7 @@ function Navbar() {
           
             <h1 className={styles.logo}>Shoeetah</h1>
 
-            <nav>
+            <nav className={styles.nav}>
                 <ul className={isMobile ? [styles.menu, styles.active].join(' ') : [styles.menu]}>
                     <li>Men</li>
                     <li>Women</li>
@@ -23,6 +23,16 @@ function Navbar() {
                     <li>Trends</li>
                     <li>New Arrival</li>
                 </ul>
+                <div className={styles.users_access}>
+                  <div className={styles.search}>
+                    <input className={styles.searchBar} type="text" placeholder='Search' />
+                        <CiSearch className={styles.search_icon}/>
+                  </div>
+
+                  <PiShoppingCartSimpleFill className={styles.cart_icon} />
+                  <RiUserFill className={styles.user_icon} />
+
+                </div>
           
             </nav>
             <div onClick={() => setIsMobile(!isMobile)} className={styles.mobile_btn}>
