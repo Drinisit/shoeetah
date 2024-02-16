@@ -82,15 +82,35 @@
 }
 
 .search_window{
-    position: absolute;
-   
     display: none;
-
+    
 }
 
 .searchTab_mobile{
     width: 100%;
-    position: absolute;
+    display: none;
+    flex-direction: row;
+    padding: 0 1.5rem;
+    background-color: skyblue;
+
+}
+
+.searchInput_mobile{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 1rem;
+    border: 1px solid var(--font-color);
+}
+
+.searchBar_mobile{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.searchBar_mobile:focus{
+    outline: none;
 }
 
 @media screen and (max-width: 768px){
@@ -138,17 +158,10 @@
         display: block;
     }
 
+    .searchTab_mobile{ 
+        display: block;
+
+    }
     
 }
 
-@media screen and (min-width: 768px){
-    .search_window{
-        width: 100%;
-        height: 70vh;
-        background-color: rgba(0, 0, 0, 0.6);
-    }
-
-    .searchInput_mobile, .mobile_closeBtn{
-        display: none;
-    }
-}
