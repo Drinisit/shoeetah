@@ -9,7 +9,7 @@ function Navbar() {
 
   const [isMobile, setIsMobile] = useState(false);
 
-  const [isSearch, setIsSearch] = useState(false);
+  const [isSearch, setIsSearch] = useState(true);
 
   return (
     <>
@@ -45,20 +45,24 @@ function Navbar() {
 
                       
         </header>
-        
-          <div className={styles.mobile_hide}>
-            <div className={styles.searchTab_mobile}>
-                      
-                      <div className={styles.searchInput_mobile}>
-                        <input className={styles.searchBar_mobile} type='text' placeholder='Search'/>
-                        <IoSearch className={styles.mobile_searchBtn} />
 
-                      </div>
-                    
-                    <IoCloseOutline className={styles.mobile_closeBtn} />
 
+            <div className={isSearch ? styles.search_window : null}>
+                <div className={styles.searchTab_mobile}>
+                          
+                          <div className={styles.searchInput_mobile}>
+                            <input className={styles.searchBar_mobile} type='text' placeholder='Search'/>
+                            <IoSearch className={styles.mobile_searchBtn} />
+
+                          </div>
+                        
+                        <IoCloseOutline className={styles.mobile_closeBtn} />
+
+                    </div>
                 </div>
-          </div>
+
+                            
+      
            
               
 
