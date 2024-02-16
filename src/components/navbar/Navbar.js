@@ -11,6 +11,7 @@ function Navbar() {
 
   const [isSearch, setIsSearch] = useState(false);
 
+
   return (
     <>
         <header className={styles.header}>
@@ -57,19 +58,12 @@ function Navbar() {
 
                           </div>
                           <div>
-                          <IoCloseOutline className={styles.mobile_closeBtn} />
+                           <IoCloseOutline onClick={() => setIsSearch(!isSearch)} className={styles.mobile_closeBtn} />
                           </div>
-                        
-
+                      
                   </div>
             </div>
 
-                            
-      
-           
-              
-
-        
     </>
   )
 }
