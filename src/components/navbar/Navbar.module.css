@@ -12,6 +12,7 @@
     align-items: center;
     padding: 0 1.5rem;
     background: #f4f4f4;
+    transition: ease 0.3s;
 }
 
 .logo{
@@ -53,9 +54,13 @@
     
 }
 
-.search_icon, .search_icon_mobile ,.cart_icon, .user_icon{
+.search_icon, .search_icon_mobile ,.cart_icon, .user_icon, .mobile_closeBtn{
     font-size: 1.2rem;
     cursor: pointer;
+}
+
+.mobile_closeBtn{
+    margin-top: 0.3rem ;
 }
 
 .search{
@@ -83,20 +88,20 @@
 
 .search_window{
     display: none;
-    
 }
 
 .searchTab_mobile{
     width: 100%;
     display: none;
     flex-direction: row;
-    padding: 0 1.5rem;
-    background-color: skyblue;
+    padding: 0 1.5rem 0.3rem 1.5rem;
+    background-color: var(--primary-bg);
 
 }
 
 .searchInput_mobile{
     display: flex;
+    width: 100%;
     align-items: center;
     padding: 5px 10px;
     border-radius: 1rem;
@@ -115,11 +120,16 @@
 
 @media screen and (max-width: 768px){
 
+    .header{
+        height: 50px;
+        transition: ease 0.3s;
+    }
+
     .mobile_btn{
         color: var(--font-color);
         font-size: 1.3rem;
         display: block;
-        top: 1.2rem;
+        top: 0.9rem;
         right: 1.5rem;
         position: absolute;
         cursor: pointer;
@@ -127,7 +137,6 @@
     }
     
     .menu {
-        
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -159,9 +168,8 @@
     }
 
     .searchTab_mobile{ 
-        display: block;
-
+        display: flex;
+        align-items: center;
     }
-    
 }
 

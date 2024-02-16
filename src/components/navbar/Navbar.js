@@ -56,8 +56,10 @@ function Navbar() {
                             <IoSearch className={styles.mobile_searchBtn} />
 
                           </div>
+                          <div>
+                          <IoCloseOutline className={styles.mobile_closeBtn} />
+                          </div>
                         
-                        <IoCloseOutline className={styles.mobile_closeBtn} />
 
                   </div>
             </div>
