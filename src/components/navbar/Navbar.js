@@ -45,20 +45,21 @@ function Navbar() {
 
                       
         </header>
-
-        <div className={isSearch ? styles.searchHide_mobile : null}>
+        
+          <div className={styles.mobile_hide}>
             <div className={styles.searchTab_mobile}>
+                      
+                      <div className={styles.searchInput_mobile}>
+                        <input className={styles.searchBar_mobile} type='text' placeholder='Search'/>
+                        <IoSearch className={styles.mobile_searchBtn} />
+
+                      </div>
                     
-                    <div className={styles.searchInput_mobile}>
-                      <input className={styles.searchBar_mobile} type='text' placeholder='Search'/>
-                      <IoSearch className={styles.mobile_searchBtn} />
+                    <IoCloseOutline className={styles.mobile_closeBtn} />
 
-                    </div>
-                  
-                  <IoCloseOutline className={styles.mobile_closeBtn} />
-
-              </div>
-        </div>
+                </div>
+          </div>
+           
               
 
         
