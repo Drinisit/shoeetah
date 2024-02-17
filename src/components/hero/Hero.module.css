@@ -17,6 +17,10 @@
 .content{
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 1280px;
+    background-color: beige;
+    flex-wrap: wrap-reverse;
     
 }
 
