@@ -1,4 +1,31 @@
-.hero{
-    width: 100%;
-    background-color: black;
+:root{
+    --main-bg: #f4f4f4;
+    --primary-font: #000;
+    --secondary-font: #fff;
 }
+
+.hero{
+    background: url('/src/assets/hero-bg.svg') no-repeat center/cover;
+    background-color: var(--main-bg);
+    display: flex;
+    width: 100%;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    
+}
+
+.title{
+    line-height: 2rem;
+    color: var(--secondary-font);  
+}
+
+.hero_image{
+    width: 400px;
+}
+
