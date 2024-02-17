@@ -19,17 +19,26 @@
     align-items: center;
     justify-content: center;
     width: 1280px;
-    background-color: beige;
     flex-wrap: wrap-reverse;
     
 }
 
 .title{
-    line-height: 2rem;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
     color: var(--secondary-font);  
 }
 
 .hero_image{
-    width: 400px;
+    width: 300px;
+}
+
+@media screen and (min-width: 768px){
+    .title{
+        
+    }
+    .hero_image{
+        width: 400px;
+    }
 }
 
