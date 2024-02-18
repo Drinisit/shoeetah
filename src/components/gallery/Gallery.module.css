@@ -1,0 +1,21 @@
+:root {
+    --primary-bg: #f4f4f4;
+    --secondary-bg: #000;
+    --tertiary-bg: #fff;
+    --primary-text: #000; 
+    --secondary-text: #fff;
+}
+
+.gallery{
+    background: url('/src/assets/hero-bg2.svg') no-repeat center/cover;
+    background-color: var(--primary-bg);
+    display: flex;
+    width: 100%;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.images{
+    width: 200px;
+}
