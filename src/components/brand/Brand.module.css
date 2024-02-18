@@ -18,7 +18,8 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-.shoeImg{
+.shoe_Image{
+    width: 1280px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -28,5 +29,5 @@
     width: 40px;
     aspect-ratio: 1/1;
     object-fit: contain;
-    margin: 0.5rem;
+    margin: 0.7rem;
 }

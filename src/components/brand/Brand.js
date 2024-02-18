@@ -5,7 +5,7 @@ function Brand() {
   return (
     <div className={styles.brand}>
             <div className={styles.content}>
-               <div className={styles.shoeImg} >
+               <div className={styles.shoe_Image} >
                 {
                   LIST.map((brand) => {
                       return(
