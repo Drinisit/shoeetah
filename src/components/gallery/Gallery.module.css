@@ -16,6 +16,30 @@
     align-items: center;
 }
 
-.images{
-    width: 200px;
+.content{
+    display: flex;
+    justify-content: center;
+    line-height: 0;
+    padding: 0;
+}
+.image_gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px){
+    .content{
+        padding: 0 1.5rem;
+    }
+    .images{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .images{
+        width: 200px;
+    }
 }

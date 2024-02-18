@@ -12,7 +12,7 @@ function Gallery() {
                         GALLERY.map((gallery)=> {
                             return(
                               
-                                   <div className={styles.image_display}>
+                                   <div key={gallery.id} className={styles.image_display}>
                                      <img className={styles.images} src={gallery.image}  alt="" />
                                     </div>  
                               
@@ -20,7 +20,6 @@ function Gallery() {
                         })
                     }
                    
-                    
                    
                 </div>
         </div>
