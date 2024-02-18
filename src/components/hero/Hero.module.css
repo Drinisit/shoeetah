@@ -1,12 +1,14 @@
-:root{
-    --main-bg: #f4f4f4;
-    --primary-font: #000;
-    --secondary-font: #fff;
+:root {
+    --primary-bg: #f4f4f4;
+    --secondary-bg: #000;
+    --tertiary-bg: #fff;
+    --primary-text: #000; 
+    --secondary-text: #fff;
 }
 
 .hero{
     background: url('/src/assets/hero-bg.svg') no-repeat center/cover;
-    background-color: var(--main-bg);
+    background-color: var(--primary-bg);
     display: flex;
     width: 100%;
     min-height: 500px;
@@ -20,22 +22,36 @@
     justify-content: center;
     width: 1280px;
     flex-wrap: wrap-reverse;
-    
 }
 
 .title{
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     line-height: 1.8rem;
-    color: var(--secondary-font);  
+    color: var(--secondary-text);  
 }
 
+.btn{
+    color: var(--secondary-text);
+    background: none;
+    border: 1px solid var(--tertiary-bg);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: var(--primary-text);
+    background-color: var(--tertiary-bg);
+}
 .hero_image{
     width: 300px;
 }
 
 @media screen and (min-width: 768px){
     .title{
-        
+        color: var(--secondary-text);
+        font-size: 1.8rem;
     }
     .hero_image{
         width: 400px;
