@@ -18,19 +18,27 @@
 
 .content{
     display: flex;
-    
     align-items: center;
     justify-content: center;
     width: 1280px;
     flex-wrap: wrap-reverse;
 }
 
+.text{
+    width: 335px;
+}
+
 .title{
-    width: 320px;
     font-size: 1.7rem;
     line-height: 1.8rem;
     color: var(--secondary-text);  
 }
+
+.typing{
+    display: flex;
+    line-height: 1.8rem;
+}
+
 
 .btn{
     color: var(--secondary-text);
@@ -41,6 +49,7 @@
     margin-top: 1rem;
     cursor: pointer;
 }
+
 
 .btn:hover{
     color: var(--primary-text);

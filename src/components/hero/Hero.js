@@ -9,18 +9,20 @@ function hero() {
             <div className={styles.text}>
 
             <h1 className={styles.title}>Stride with Style</h1>
-            <div>
+            <div className={styles.typing}>
+              <h1 className={styles.title}>Find your Perfect</h1>
+            
             <TypeAnimation
                 sequence={[
                 
-                  'Find your Perfect Pair',
+                  'Pair',
                   1500,
-                  'Find your Perfect Shoes',
+                  'Shoes',
                   1500,
                 ]}
                 wrapper="span"
                 speed={10}
-                style={{ fontSize: '1.7rem',fontWeight: 'bold' ,display: 'inline-block', color: 'white' }}
+                style={{ fontSize: '1.7rem',fontWeight: 'bold' ,display: 'inline-block', color: 'white', marginLeft: '0.5rem' }}
                 repeat={Infinity}
               />
             </div>
