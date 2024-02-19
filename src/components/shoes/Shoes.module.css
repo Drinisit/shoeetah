@@ -1,0 +1,48 @@
+:root {
+    --primary-bg: #f4f4f4;
+    --secondary-bg: #000;
+    --tertiary-bg: #fff;
+    --primary-text: #000; 
+    --secondary-text: #fff;
+}
+
+.shoes{
+    display: flex;
+    width: 100%;
+    min-height: 500px;
+    background-color: var(--secondary-bg);
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width: 1280px;
+    height: 500px;
+    display: flex;
+    background-color: var(--primary-bg);
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

@@ -2,6 +2,7 @@ import Navbar from '../components/navbar/Navbar'
 import Hero from '../components/hero/Hero'
 import Brand from '../components/brand/Brand'
 import Gallery from '../components/gallery/Gallery'
+import Shoes from '../components/shoes/Shoes'
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
         <Hero />
         <Brand />
         <Gallery />
+        <Shoes />
     </>
   )
 }
