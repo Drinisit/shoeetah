@@ -4,6 +4,7 @@
     --tertiary-bg: #fff;
     --primary-text: #000; 
     --secondary-text: #fff;
+    --swiper-theme-color: #000;
 }
 
 .shoes{
@@ -27,6 +28,15 @@
 .image{
     width: 100%;
 }
+
+.swiper-pagination-bullet{
+    background-color: #000;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #000;
+}
+
 
 @media screen and (min-width: 768px){
     .image{
