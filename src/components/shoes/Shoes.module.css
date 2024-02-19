@@ -4,7 +4,6 @@
     --tertiary-bg: #fff;
     --primary-text: #000; 
     --secondary-text: #fff;
-    --swiper-theme-color: #000;
 }
 
 .shoes{
@@ -28,18 +27,6 @@
 .image{
     width: 100%;
 }
-
-/* target the active bullet */
-span.swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background-color: #000;
-    opacity: 1;
-  }
-  
-  /* target all bullets */
-  .swiper-pagination-bullet {
-    background-color: red;
-    opacity: 1;
-  }
 
 @media screen and (min-width: 768px){
     .image{
