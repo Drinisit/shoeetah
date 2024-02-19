@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shoeetah/static/css/main.a1eebee7.css",
-    "main.js": "/shoeetah/static/js/main.cdb30967.js",
+    "main.css": "/shoeetah/static/css/main.cc8c2e82.css",
+    "main.js": "/shoeetah/static/js/main.6f54a614.js",
     "static/media/vans_hero.png": "/shoeetah/static/media/vans_hero.3e95a6ef3c3a5ed39146.png",
     "static/media/puma.jpg": "/shoeetah/static/media/puma.9d31522592d4047cea63.jpg",
     "static/media/nike.png": "/shoeetah/static/media/nike.c373ef96c45e154be30e.png",
@@ -12,19 +12,27 @@
     "static/media/vans.jpg": "/shoeetah/static/media/vans.f2c2e3f3a49259366f83.jpg",
     "static/media/dc.png": "/shoeetah/static/media/dc.ccd091e90cb689c2dda0.png",
     "static/media/converse.jpg": "/shoeetah/static/media/converse.4f02f49a5cfa430a379d.jpg",
+    "static/media/allstar_converse.jpg": "/shoeetah/static/media/allstar_converse.2f1e6186287e7411279d.jpg",
+    "static/media/adidas_superstar.jpg": "/shoeetah/static/media/adidas_superstar.53730e529b605dd832d2.jpg",
     "static/media/converse.png": "/shoeetah/static/media/converse.bb29670481c04b52ba14.png",
+    "static/media/vans_skate.jpg": "/shoeetah/static/media/vans_skate.0f05baaed6c93744b2a4.jpg",
+    "static/media/adidas_goldsuperstar.jpg": "/shoeetah/static/media/adidas_goldsuperstar.f2e478fa4989c0ac8a13.jpg",
+    "static/media/vans_oldskool.jpg": "/shoeetah/static/media/vans_oldskool.78375d0b7f6a8dc71e54.jpg",
+    "static/media/nike_highheeled.jpg": "/shoeetah/static/media/nike_highheeled.87477fc9cf2785d01acd.jpg",
     "static/media/vans.png": "/shoeetah/static/media/vans.0f888b95b6fd5c2a1c70.png",
+    "static/media/airforce_nike.jpg": "/shoeetah/static/media/airforce_nike.a331647fce9603178d25.jpg",
+    "static/media/puma_sneaker.jpg": "/shoeetah/static/media/puma_sneaker.321d1690cc5974dd926c.jpg",
     "static/media/under_armor.png": "/shoeetah/static/media/under_armor.9c524a1c47167b63ceab.png",
     "static/media/adidas.png": "/shoeetah/static/media/adidas.0716682d0ccf4adc2278.png",
     "static/media/puma.png": "/shoeetah/static/media/puma.588e39e5014a13ba6392.png",
     "index.html": "/shoeetah/index.html",
     "static/media/hero-bg.svg": "/shoeetah/static/media/hero-bg.c6382c0c8ea41e604024.svg",
     "static/media/hero-bg2.svg": "/shoeetah/static/media/hero-bg2.7a1124e4d1446df964ec.svg",
-    "main.a1eebee7.css.map": "/shoeetah/static/css/main.a1eebee7.css.map",
-    "main.cdb30967.js.map": "/shoeetah/static/js/main.cdb30967.js.map"
+    "main.cc8c2e82.css.map": "/shoeetah/static/css/main.cc8c2e82.css.map",
+    "main.6f54a614.js.map": "/shoeetah/static/js/main.6f54a614.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1eebee7.css",
-    "static/js/main.cdb30967.js"
+    "static/css/main.cc8c2e82.css",
+    "static/js/main.6f54a614.js"
   ]
 }
