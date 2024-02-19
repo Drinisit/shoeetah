@@ -25,7 +25,7 @@ function Shoes() {
         }}
         breakpoints={{
           640: {
-            slidesPerView: 1,
+            slidesPerView: 2,
             spaceBetween: 20,
           },
           768: {
@@ -44,7 +44,14 @@ function Shoes() {
             SHOESLIST.map((shoesList) => {
                 return(
                     <SwiperSlide key={shoesList.id} >
-                         <img src={shoesList.image} alt="" />
+                        <div className={styles.card}>
+                            <img className={styles.image} src={shoesList.image} alt="" />
+                           
+                        </div>
+                        <div className={styles.text}>
+                         <p>{shoesList.name}</p>
+                        </div>
+                         
                     </SwiperSlide>
                 )
             })

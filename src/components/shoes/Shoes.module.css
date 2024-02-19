@@ -19,7 +19,6 @@
     width: 1280px;
     height: 500px;
     display: flex;
-    background-color: var(--primary-bg);
     align-items: center;
     justify-content: center;
 }
@@ -32,8 +31,7 @@
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
-  
+    
     /* Center slide text vertically */
     display: flex;
     justify-content: center;
@@ -45,4 +43,23 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  .card{
+    display: flex;
+    align-items: center;
+    background-color: var(--tertiary-bg);
+  }
+  .image{
+   width: 100%;
+  }
+
+  .text{
+    width: 100%;
+    margin-bottom: 2rem;
+    background-color: var(--tertiary-bg);
+  }
+
+  @media screen and (max-width: 768px){
+    
   }
