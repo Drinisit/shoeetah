@@ -19,5 +19,15 @@ const GALLERY = [
         name: "Adidas",
         image: require("../../assets/galleries/adidas.jpg"),
     },
+    {
+        id: 5,
+        name: "Reebok",
+        image: require("../../assets/galleries/reebok.jpg"),
+    },
+    {
+        id: 6,
+        name: "Puma",
+        image: require("../../assets/galleries/puma.jpg"),
+    },
 ]
 export default GALLERY

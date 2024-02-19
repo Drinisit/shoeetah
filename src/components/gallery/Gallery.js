@@ -14,6 +14,10 @@ function Gallery() {
                               
                                    <div key={gallery.id} className={styles.image_display}>
                                      <img className={styles.images} src={gallery.image}  alt="" />
+                                     <div className={styles.title}>
+                                     <p className={styles.text}>{gallery.name}</p>
+                                     </div>
+                                     
                                     </div>  
                               
                             )
