@@ -12,11 +12,15 @@ function Shoes() {
   return (
     <div className={styles.shoes}>
       <div className={styles.content}>
-      <Swiper
+      <Swiper style={{
+        "--swiper-pagination-color": "#000",
+        "--swiper-pagination-bullet-inactive-color": "#9d1212",
+      }}
+
+
       modules={[Pagination]}
       spaceBetween={20}
       slidesPerView={3}
-      navigation
       pagination={{ clickable: true }}
       breakpoints={{
         1024: {
@@ -31,6 +35,7 @@ function Shoes() {
         SLIDES.map((slide) => {
             return(
                 <SwiperSlide key={slide.id} className={styles.slide}>
+                
                     <img className={styles.image} src={slide.image} alt="" />
                 </SwiperSlide>
             )
