@@ -1,4 +1,4 @@
-const SHOESLIST = [
+const SLIDES = [
     {
         id: 1,
         name: 'Adidas Superstar',
@@ -41,4 +41,4 @@ const SHOESLIST = [
     },
 ]
 
-export default SHOESLIST
+export default SLIDES

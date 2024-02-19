@@ -9,7 +9,7 @@ function Brand() {
                 {
                   LIST.map((brand) => {
                       return(
-                        <img className={styles.shoe} src={brand.image} alt="" />
+                        <img key={brand.id} className={styles.shoe} src={brand.image} alt="" />
                       )
                   })
                 }
