@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/shoeetah/static/css/main.a83ee652.css",
-    "main.js": "/shoeetah/static/js/main.4f1800c7.js",
-    "static/media/vans_hero.png": "/shoeetah/static/media/vans_hero.3e95a6ef3c3a5ed39146.png",
+    "main.css": "/shoeetah/static/css/main.b2733300.css",
+    "main.js": "/shoeetah/static/js/main.488ef68b.js",
+    "static/media/vans_hero.png": "/shoeetah/static/media/vans_hero.399540672ed6817a493c.png",
     "static/media/puma.jpg": "/shoeetah/static/media/puma.9d31522592d4047cea63.jpg",
     "static/media/nike.png": "/shoeetah/static/media/nike.c373ef96c45e154be30e.png",
     "static/media/reebok.png": "/shoeetah/static/media/reebok.8e561aa8c61c72cd797c.png",
@@ -26,13 +26,13 @@
     "static/media/adidas.png": "/shoeetah/static/media/adidas.0716682d0ccf4adc2278.png",
     "static/media/puma.png": "/shoeetah/static/media/puma.588e39e5014a13ba6392.png",
     "index.html": "/shoeetah/index.html",
-    "static/media/hero-bg.svg": "/shoeetah/static/media/hero-bg.02325a16b964767c3a2a.svg",
-    "static/media/hero-bg2.svg": "/shoeetah/static/media/hero-bg2.57f51e7a1cb4c23ac326.svg",
-    "main.a83ee652.css.map": "/shoeetah/static/css/main.a83ee652.css.map",
-    "main.4f1800c7.js.map": "/shoeetah/static/js/main.4f1800c7.js.map"
+    "static/media/hero-bg.svg": "/shoeetah/static/media/hero-bg.c6382c0c8ea41e604024.svg",
+    "static/media/hero-bg2.svg": "/shoeetah/static/media/hero-bg2.7a1124e4d1446df964ec.svg",
+    "main.b2733300.css.map": "/shoeetah/static/css/main.b2733300.css.map",
+    "main.488ef68b.js.map": "/shoeetah/static/js/main.488ef68b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a83ee652.css",
-    "static/js/main.4f1800c7.js"
+    "static/css/main.b2733300.css",
+    "static/js/main.488ef68b.js"
   ]
 }
