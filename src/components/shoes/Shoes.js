@@ -13,7 +13,7 @@ function Shoes() {
     <div className={styles.shoes}>
       <div className={styles.content}>
       <Swiper style={{
-        "--swiper-pagination-color": "#000",
+        "--swiper-pagination-color": "#fff",
         "--swiper-pagination-bullet-inactive-color": "#f4f4f4",
       }}
 
@@ -38,6 +38,7 @@ function Shoes() {
                     <img className={styles.image} src={slide.image} alt="" />
                     <div className={styles.title}>
                       <p>{slide.name}</p>
+                      <p>{slide.price}</p>
                     </div>
                 </SwiperSlide>
             )
@@ -46,6 +47,9 @@ function Shoes() {
       
       
     </Swiper>
+
+
+
 
       </div>
     
