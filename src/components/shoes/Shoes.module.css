@@ -13,6 +13,7 @@
     padding: 1.5rem 0;
     justify-content: center;
     align-items: center;
+    background-color: var(--secondary-bg);
 }
 
 .content{
@@ -24,12 +25,22 @@
     justify-content: center;
 }
 
+
 .image{
     width: 100%;
 }
 
+.title{
+    width: 100%;
+    background-color: var(--tertiary-bg);
+    margin-top: -2rem;
+}
+
 @media screen and (min-width: 768px){
     .image{
-        width: 80%;
+        width: 70%;
+    }
+    .title{
+        width: 70%;
     }
 }

@@ -14,7 +14,7 @@ function Shoes() {
       <div className={styles.content}>
       <Swiper style={{
         "--swiper-pagination-color": "#000",
-        "--swiper-pagination-bullet-inactive-color": "#9d1212",
+        "--swiper-pagination-bullet-inactive-color": "#f4f4f4",
       }}
 
 
@@ -35,8 +35,10 @@ function Shoes() {
         SLIDES.map((slide) => {
             return(
                 <SwiperSlide key={slide.id} className={styles.slide}>
-                
                     <img className={styles.image} src={slide.image} alt="" />
+                    <div className={styles.title}>
+                      <p>{slide.name}</p>
+                    </div>
                 </SwiperSlide>
             )
         })
