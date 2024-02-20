@@ -24,7 +24,7 @@ function Shoes() {
       pagination={{ clickable: true }}
       breakpoints={{
         1024: {
-          slidesPerView: 5,
+          slidesPerView: 4,
           spaceBetween: 10,
         },
       }}
@@ -35,11 +35,14 @@ function Shoes() {
         SLIDES.map((slide) => {
             return(
                 <SwiperSlide key={slide.id} className={styles.slide}>
+                  <div className={styles.card}>
                     <img className={styles.image} src={slide.image} alt="" />
-                    <div className={styles.title}>
-                      <p>{slide.name}</p>
-                      <p>{slide.price}</p>
-                    </div>
+                      <div className={styles.title}>
+                        <p>{slide.name}</p>
+                        <p>{slide.price}</p>
+                      </div>
+                  </div>
+                   
                 </SwiperSlide>
             )
         })
