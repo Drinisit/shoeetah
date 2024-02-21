@@ -38,7 +38,7 @@ function Shoes() {
                   <div className={styles.card}>
                     <img className={styles.image} src={slide.image} alt="" />
                       <div className={styles.title}>
-                        <p>{slide.name}</p>
+                        <p className={styles.name}>{slide.name}</p>
                         <p>{slide.price}</p>
                       </div>
                   </div>
