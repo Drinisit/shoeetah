@@ -1,0 +1,31 @@
+:root {
+    --primary-bg: #f4f4f4;
+    --secondary-bg: #000;
+    --tertiary-bg: #fff;
+    --primary-text: #000; 
+    --secondary-text: #fff;
+}
+
+.model{
+    width: 100%;
+    min-height: 500px;
+    margin: auto;
+    padding: 1.5rem;
+}
+
+.content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 768px;
+}
+
+.image{
+    width: 100%;
+}
+
