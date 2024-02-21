@@ -18,9 +18,9 @@
 
 .content{
     display: flex;
+    height: auto;
     align-items: center;
     justify-content: center;
-    width: 1280px;
     flex-wrap: wrap-reverse;
 }
 
@@ -56,16 +56,19 @@
     background-color: var(--tertiary-bg);
 }
 .hero_image{
-    width: 300px;
+    width: 350px;
 }
 
 @media screen and (min-width: 768px){
+    .content{
+        width: 1280px;
+    }
     .title{
         color: var(--secondary-text);
         font-size: 1.8rem;
     }
     .hero_image{
-        width: 400px;
+        width: 600px;
     }
 }
 
