@@ -9,6 +9,11 @@ const MODEL = [
         image: require("../../assets/models/pexels-missael-balboa-5612692 (1).jpg"),
         text: "The Classics",
     },
+    {
+        id: 3,
+        image: require("../../assets/models/pexels-jeandaniel-francoeur-9471772.jpg"),
+        text: "The Classics",
+    },
 ]
 
 export default MODEL
