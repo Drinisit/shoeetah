@@ -24,7 +24,7 @@ function Shoes() {
       pagination={{ clickable: true }}
       breakpoints={{
         1024: {
-          slidesPerView: 4,
+          slidesPerView: 5,
           spaceBetween: 10,
         },
       }}
