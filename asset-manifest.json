@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/shoeetah/static/css/main.84d98494.css",
+    "main.css": "/shoeetah/static/css/main.c944f1bd.css",
     "main.js": "/shoeetah/static/js/main.70e18818.js",
     "static/media/pexels-joshua-roberts-14666362.jpg": "/shoeetah/static/media/pexels-joshua-roberts-14666362.735411c2b8cbd51fafb6.jpg",
     "static/media/pexels-missael-balboa-5612692 (1).jpg": "/shoeetah/static/media/pexels-missael-balboa-5612692 (1).2782d049d10b3b906a5c.jpg",
@@ -31,11 +31,11 @@
     "index.html": "/shoeetah/index.html",
     "static/media/hero-bg.svg": "/shoeetah/static/media/hero-bg.c6382c0c8ea41e604024.svg",
     "static/media/hero-bg2.svg": "/shoeetah/static/media/hero-bg2.7a1124e4d1446df964ec.svg",
-    "main.84d98494.css.map": "/shoeetah/static/css/main.84d98494.css.map",
+    "main.c944f1bd.css.map": "/shoeetah/static/css/main.c944f1bd.css.map",
     "main.70e18818.js.map": "/shoeetah/static/js/main.70e18818.js.map"
   },
   "entrypoints": [
-    "static/css/main.84d98494.css",
+    "static/css/main.c944f1bd.css",
     "static/js/main.70e18818.js"
   ]
 }
