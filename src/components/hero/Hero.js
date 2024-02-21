@@ -30,8 +30,8 @@ function hero() {
 
                 <button className={styles.btn}>Learn more</button>
             </div>
-            <div >
-                <img className={styles.hero_image} src={HeroShoes} alt='' />
+            <div className={styles.hero_image} >
+                <img className={styles.image}  src={HeroShoes} alt='' />
             </div>
 
         </div>
