@@ -19,7 +19,6 @@
 .content{
     display: flex;
     justify-content: center;
-    padding: 1.5rem;
 }
 
 .image_gallery{
@@ -31,7 +30,6 @@
 
 .images{
     width: 150px;
-    margin: 0;
 }
 
 .text{
@@ -46,10 +44,10 @@
 
 @media screen and (min-width: 768px){
     .content{
-        padding: 0 1.5rem;
+        width: 1280px;
     }
     .images{
-        width: 250px;
+        width: 320px;
         aspect-ratio: 1/1;
     }
 

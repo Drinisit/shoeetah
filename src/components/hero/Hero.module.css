@@ -27,7 +27,6 @@
 
 .text{
     width: 340px;
-    background-color: brown;
 }
 
 .title{
@@ -59,7 +58,6 @@
 }
 .hero_image{
     width: 400px;
-    background-color: aqua;
 }
 .image{
     width: 100%;
