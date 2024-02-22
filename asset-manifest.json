@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/shoeetah/static/css/main.dc938d35.css",
+    "main.css": "/shoeetah/static/css/main.f72ea9e0.css",
     "main.js": "/shoeetah/static/js/main.8f45c6dc.js",
     "static/media/pexels-joshua-roberts-14666362.jpg": "/shoeetah/static/media/pexels-joshua-roberts-14666362.735411c2b8cbd51fafb6.jpg",
     "static/media/pexels-missael-balboa-5612692 (1).jpg": "/shoeetah/static/media/pexels-missael-balboa-5612692 (1).2782d049d10b3b906a5c.jpg",
@@ -31,11 +31,11 @@
     "index.html": "/shoeetah/index.html",
     "static/media/hero-bg.svg": "/shoeetah/static/media/hero-bg.c6382c0c8ea41e604024.svg",
     "static/media/hero-bg2.svg": "/shoeetah/static/media/hero-bg2.7a1124e4d1446df964ec.svg",
-    "main.dc938d35.css.map": "/shoeetah/static/css/main.dc938d35.css.map",
+    "main.f72ea9e0.css.map": "/shoeetah/static/css/main.f72ea9e0.css.map",
     "main.8f45c6dc.js.map": "/shoeetah/static/js/main.8f45c6dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc938d35.css",
+    "static/css/main.f72ea9e0.css",
     "static/js/main.8f45c6dc.js"
   ]
 }
