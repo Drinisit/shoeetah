@@ -13,13 +13,13 @@
     width: 100%;
     min-height: 500px;
     justify-content: center;
+    padding: 0 1.5rem;
     align-items: center;
 }
 
 .content{
     display: flex;
     height: auto;
-    padding: 0 1.5rem;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap-reverse;

@@ -16,8 +16,12 @@
     background-color: var(--secondary-bg);
 }
 
+.slide {
+    max-width: 100px;
+    background-color: aqua;
+}
 .content{
-    width: 100%;
+    max-width: 1280px;
     min-height: 200px;
     display: flex;
     align-items: center;
