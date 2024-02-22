@@ -39,13 +39,13 @@ function Shoes() {
         SLIDES.map((slide) => {
             return(
                 <SwiperSlide key={slide.id} className={styles.slide}>
-                  <div className={styles.card}>
+             
                     <img className={styles.image} src={slide.image} alt="" />
                       <div className={styles.title}>
                         <p className={styles.name}>{slide.name}</p>
                         <p>{slide.price}</p>
                       </div>
-                  </div>
+            
                    
                 </SwiperSlide>
             )
