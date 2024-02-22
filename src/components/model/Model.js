@@ -11,7 +11,8 @@ function Model() {
                         return(
                             <div key={model.id} className={styles.card}>
                                 <img className={styles.image} src={model.image} alt="" />
-                                <p>{model.text}</p>
+                                <p className={styles.title}>{model.text}</p>
+                                <button className={styles.button}>Shop now</button>
                             </div>  
                         )
                     })
