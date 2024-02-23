@@ -37,19 +37,27 @@ function Trends() {
      >
 
     {
-        SLIDES.map((slide) => {
-            return(
-                <SwiperSlide key={slide.id} className={styles.slide}>
-             
-                    <img className={styles.image} src={slide.image} alt="" />
-                      <div className={styles.title}>
-                        <p className={styles.name}>{slide.name}</p>
-                        <p>{slide.price}</p>
-                      </div>
-                   
-                </SwiperSlide>
+        SLIDES.map((slide, index) => {
+            if(index < 6){
+                return(
+                    <SwiperSlide key={slide.id} className={styles.slide}>
+                 
+                        <img className={styles.image} src={slide.image} alt="" />
+                          <div className={styles.title}>
+                            <p className={styles.name}>{slide.name}</p>
+                            <p>{slide.price}</p>
+                          </div>
+                       
+                    </SwiperSlide>
+                )
+            }else{
+                return(
+                    <div style={{display: "none"}}></div>
+                )
+                
+            }
+            }
             )
-        })
     }
       
       
