@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shoeetah/static/css/main.f72ea9e0.css",
-    "main.js": "/shoeetah/static/js/main.8f45c6dc.js",
+    "main.css": "/shoeetah/static/css/main.e2bf4a5c.css",
+    "main.js": "/shoeetah/static/js/main.a01a7520.js",
     "static/media/pexels-joshua-roberts-14666362.jpg": "/shoeetah/static/media/pexels-joshua-roberts-14666362.735411c2b8cbd51fafb6.jpg",
     "static/media/pexels-missael-balboa-5612692 (1).jpg": "/shoeetah/static/media/pexels-missael-balboa-5612692 (1).2782d049d10b3b906a5c.jpg",
     "static/media/pexels-jeandaniel-francoeur-9471772.jpg": "/shoeetah/static/media/pexels-jeandaniel-francoeur-9471772.d53be871d87109249d44.jpg",
@@ -29,13 +29,13 @@
     "static/media/adidas.png": "/shoeetah/static/media/adidas.0716682d0ccf4adc2278.png",
     "static/media/puma.png": "/shoeetah/static/media/puma.588e39e5014a13ba6392.png",
     "index.html": "/shoeetah/index.html",
-    "static/media/hero-bg.svg": "/shoeetah/static/media/hero-bg.c6382c0c8ea41e604024.svg",
-    "static/media/hero-bg2.svg": "/shoeetah/static/media/hero-bg2.7a1124e4d1446df964ec.svg",
-    "main.f72ea9e0.css.map": "/shoeetah/static/css/main.f72ea9e0.css.map",
-    "main.8f45c6dc.js.map": "/shoeetah/static/js/main.8f45c6dc.js.map"
+    "static/media/hero-bg.svg": "/shoeetah/static/media/hero-bg.02325a16b964767c3a2a.svg",
+    "static/media/hero-bg2.svg": "/shoeetah/static/media/hero-bg2.57f51e7a1cb4c23ac326.svg",
+    "main.e2bf4a5c.css.map": "/shoeetah/static/css/main.e2bf4a5c.css.map",
+    "main.a01a7520.js.map": "/shoeetah/static/js/main.a01a7520.js.map"
   },
   "entrypoints": [
-    "static/css/main.f72ea9e0.css",
-    "static/js/main.8f45c6dc.js"
+    "static/css/main.e2bf4a5c.css",
+    "static/js/main.a01a7520.js"
   ]
 }
