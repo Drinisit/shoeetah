@@ -1,6 +1,5 @@
-import styles from './Shoes.module.css'
-
-import SLIDES from './shoesList'
+import styles from "./Trends.module.css"
+import SLIDES from "../shoes/shoesList"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
@@ -8,13 +7,15 @@ import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-function Shoes() {
+function Trends() {
   return (
-    <div className={styles.shoes}>
+    <div className={styles.trends}>
+       <h1 className={styles.heading}>Trends</h1> 
       <div className={styles.content}>
+      
       <Swiper style={{
-        "--swiper-pagination-color": "#fff",
-        "--swiper-pagination-bullet-inactive-color": "#f4f4f4",
+        "--swiper-pagination-color": "#000",
+        "--swiper-pagination-bullet-inactive-color": "#8b8b8b",
       }}
 
 
@@ -54,13 +55,9 @@ function Shoes() {
       
     </Swiper>
 
-
-
-
       </div>
-    
     </div>
   )
 }
 
-export default Shoes
+export default Trends
