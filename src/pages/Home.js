@@ -5,6 +5,7 @@ import Gallery from '../components/gallery/Gallery'
 import Shoes from '../components/shoes/Shoes'
 import Model from "../components/model/Model"
 import Trends from "../components/trends/Trends"
+import Review from "../components/review/Review"
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
         <Shoes />
         <Model />
         <Trends />
+        <Review />
     </>
   )
 }
