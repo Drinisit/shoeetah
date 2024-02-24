@@ -28,8 +28,11 @@
     width: 100%;
     min-height: 200px;
     border-radius: 10px;
+    padding: 1rem 0.7rem;
     display: flex;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
     background-color: var(--primary-bg);
 }
 

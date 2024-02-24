@@ -12,24 +12,25 @@ function Review() {
 
             <Swiper
                 spaceBetween={50}
-                slidesPerView={3}
+                slidesPerView={1}
                 >
-                    
-                <SwiperSlide className={styles.card}>
-                    {
+                  {
                         REVIEWS.map((reviewer) => {
-                            return(
-                                <div key={reviewer.id}>
-                                    <div className={styles.image}>{reviewer.image}</div>
+                            return(    
+                <SwiperSlide key={reviewer.id} className={styles.card}>
+                                    
+                                    <img className={styles.image} src={reviewer.image} alt="" />
                                     <div className={styles.name}>{reviewer.name}</div>
                                     <div className={styles.text}>{reviewer.review}</div>
-                                </div>
+                              
                                
-                            )
-                        })
-                    }
                     
                 </SwiperSlide>
+
+)
+})
+}
+
                
             </Swiper>
 
