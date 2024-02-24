@@ -1,4 +1,5 @@
 import styles from "./Review.module.css"
+import REVIEWS from "./ReviewList"
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
@@ -13,18 +14,23 @@ function Review() {
                 spaceBetween={50}
                 slidesPerView={3}
                 >
+                    
                 <SwiperSlide className={styles.card}>
-                    <div className={styles.image}></div>
+                    {
+                        REVIEWS.map((reviewer) => {
+                            return(
+                                <div key={reviewer.id}>
+                                    <div className={styles.image}>{reviewer.image}</div>
+                                    <div className={styles.name}>{reviewer.name}</div>
+                                    <div className={styles.text}>{reviewer.review}</div>
+                                </div>
+                               
+                            )
+                        })
+                    }
+                    
                 </SwiperSlide>
-                <SwiperSlide className={styles.card}>
-                    <div className={styles.image}></div>
-                </SwiperSlide>
-                <SwiperSlide className={styles.card}>
-                    <div className={styles.image}></div>
-                </SwiperSlide>
-                <SwiperSlide className={styles.card}>
-                    <div className={styles.image}></div>
-                </SwiperSlide>
+               
             </Swiper>
 
         </div>
