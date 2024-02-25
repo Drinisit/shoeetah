@@ -44,6 +44,11 @@
     background-color: var(--secondary-bg);
 }
 
+.name{
+    font-size: 18px;
+    padding: 0.3rem 0;
+}
+
 .swiper .swiper-button-next{
     height: 15px;
 }

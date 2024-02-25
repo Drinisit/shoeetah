@@ -2,7 +2,7 @@ const REVIEWS = [
     {
         id: 1,
         image: require("../../assets/reviews/pexels-italo-melo-2379004.jpg"),
-        name: "Peter",
+        name: "James",
         review: "I recently came across the shoes website and was pleasantly surprised by the variety and quality of products offered. The website is user-friendly and easy to navigate, making it a breeze to shop for shoes, very nice.",
     },
     {

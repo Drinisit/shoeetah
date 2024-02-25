@@ -45,7 +45,7 @@ function Review() {
                          <SwiperSlide key={reviewer.id} className={styles.card}>
                                     
                                     <img className={styles.image} src={reviewer.image} alt="" />
-                                    <div className={styles.name}>{reviewer.name}</div>
+                                    <h2 className={styles.name}>{reviewer.name}</h2>
                                     <div className={styles.text}>
                                       {
                                       reviewer.review.length > 250 ? `${reviewer.review.substring(0,250)}...` : reviewer.review}
