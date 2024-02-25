@@ -20,6 +20,7 @@ function Review() {
                 "--swiper-pagination-bullet-inactive-opacity": "1",
                 "--swiper-navigation-top-offset": "50%",
                 "--swiper-navigation-sides-offset": "10px",
+                "--swiper-navigation-size": "30px",
                 "--swiper-navigation-color": "#000"
               }
             }
