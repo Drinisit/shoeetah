@@ -35,7 +35,10 @@ function Review() {
                                     
                                     <img className={styles.image} src={reviewer.image} alt="" />
                                     <div className={styles.name}>{reviewer.name}</div>
-                                    <div className={styles.text}>{reviewer.review}</div>
+                                    <div className={styles.text}>
+                                      {
+                                      reviewer.review.length > 250 ? `${reviewer.review.substring(0,250)}...` : reviewer.review}
+                                      </div>
                               
                                
                     
