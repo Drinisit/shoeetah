@@ -14,7 +14,17 @@ function Review() {
     <div className={styles.review}>
         <div className={styles.content}>
 
-            <Swiper
+            <Swiper style={{
+                "--swiper-pagination-color": "#000",
+                "--swiper-pagination-bullet-inactive-color": "#999999",
+                "--swiper-pagination-bullet-inactive-opacity": "1",
+                "--swiper-navigation-top-offset": "50%",
+                "--swiper-navigation-sides-offset": "10px",
+                "--swiper-navigation-color": "#000"
+              }
+            }
+  
+
                 modules={[Pagination, Navigation]}
                 spaceBetween={20}
                 slidesPerView={1}

@@ -3,7 +3,7 @@ const REVIEWS = [
         id: 1,
         image: require("../../assets/reviews/pexels-italo-melo-2379004.jpg"),
         name: "Peter",
-        review: "I recently came across the shoes website and was pleasantly surprised by the variety and quality of products offered. The website is user-friendly and easy to navigate, making it a breeze to shop for shoes.",
+        review: "I recently came across the shoes website and was pleasantly surprised by the variety and quality of products offered. The website is user-friendly and easy to navigate, making it a breeze to shop for shoes, very nice.",
     },
     {
         id: 2,
@@ -21,7 +21,7 @@ const REVIEWS = [
         id: 4,
         name: "Herbert",
         image: require("../../assets/reviews/pexels-photo-1334945.jpg"),
-        review: "The prices on the website are reasonable and competitive compared to other online shoe stores. I was able to find some great deals and discounts, making my purchase even more satisfying.",
+        review: "The prices on the website are reasonable and competitive compared to other online shoe stores. I was able to find some great deals and discounts, making my purchase even more satisfying and comfortable to wear like my old shoes.",
     },
     {
         id: 5,
