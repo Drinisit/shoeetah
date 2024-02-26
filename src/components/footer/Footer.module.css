@@ -1,0 +1,22 @@
+:root {
+    --primary-bg: #f4f4f4;
+    --secondary-bg: #000;
+    --tertiary-bg: #fff;
+    --primary-text: #000; 
+    --secondary-text: #fff;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    padding: 1rem 1.5rem;
+    background-color: var(--secondary-bg);
+}
+
+.content{
+    color: var(--secondary-text);
+    width: 100%;
+    max-width: 1280px;
+    min-height: 200px;
+    margin: auto;
+}

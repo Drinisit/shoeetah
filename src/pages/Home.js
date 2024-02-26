@@ -6,6 +6,7 @@ import Shoes from '../components/shoes/Shoes'
 import Model from "../components/model/Model"
 import Trends from "../components/trends/Trends"
 import Review from "../components/review/Review"
+import Footer from "../components/footer/Footer"
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
         <Model />
         <Trends />
         <Review />
+        <Footer />
     </>
   )
 }
