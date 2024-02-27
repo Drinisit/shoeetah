@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/shoeetah/static/css/main.c21c76de.css",
-    "main.js": "/shoeetah/static/js/main.8426b575.js",
+    "main.css": "/shoeetah/static/css/main.4a97735f.css",
+    "main.js": "/shoeetah/static/js/main.3afecc1e.js",
+    "static/media/adidas_superstar.jpg": "/shoeetah/static/media/adidas_superstar.53730e529b605dd832d2.jpg",
     "index.html": "/shoeetah/index.html",
-    "main.c21c76de.css.map": "/shoeetah/static/css/main.c21c76de.css.map",
-    "main.8426b575.js.map": "/shoeetah/static/js/main.8426b575.js.map"
+    "main.4a97735f.css.map": "/shoeetah/static/css/main.4a97735f.css.map",
+    "main.3afecc1e.js.map": "/shoeetah/static/js/main.3afecc1e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c21c76de.css",
-    "static/js/main.8426b575.js"
+    "static/css/main.4a97735f.css",
+    "static/js/main.3afecc1e.js"
   ]
 }
