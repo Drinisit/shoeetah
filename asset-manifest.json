@@ -1,14 +1,47 @@
 {
   "files": {
-    "main.css": "/shoeetah/static/css/main.4a97735f.css",
-    "main.js": "/shoeetah/static/js/main.3afecc1e.js",
+    "main.css": "/shoeetah/static/css/main.fce55945.css",
+    "main.js": "/shoeetah/static/js/main.feb31ca5.js",
+    "static/media/pexels-joshua-roberts-14666362.jpg": "/shoeetah/static/media/pexels-joshua-roberts-14666362.735411c2b8cbd51fafb6.jpg",
+    "static/media/pexels-missael-balboa-5612692 (1).jpg": "/shoeetah/static/media/pexels-missael-balboa-5612692 (1).2782d049d10b3b906a5c.jpg",
+    "static/media/pexels-jeandaniel-francoeur-9471772.jpg": "/shoeetah/static/media/pexels-jeandaniel-francoeur-9471772.d53be871d87109249d44.jpg",
+    "static/media/vans_hero.png": "/shoeetah/static/media/vans_hero.399540672ed6817a493c.png",
+    "static/media/puma.jpg": "/shoeetah/static/media/puma.9d31522592d4047cea63.jpg",
+    "static/media/nike.png": "/shoeetah/static/media/nike.c373ef96c45e154be30e.png",
+    "static/media/reebok.png": "/shoeetah/static/media/reebok.8e561aa8c61c72cd797c.png",
+    "static/media/adidas.jpg": "/shoeetah/static/media/adidas.33a2fabf24b55c126258.jpg",
+    "static/media/reebok.jpg": "/shoeetah/static/media/reebok.65fcfa2269df07286f01.jpg",
+    "static/media/nike.jpg": "/shoeetah/static/media/nike.80e7bd02af67671e28d1.jpg",
+    "static/media/vans.jpg": "/shoeetah/static/media/vans.f2c2e3f3a49259366f83.jpg",
+    "static/media/pexels-photo-1065084.jpg": "/shoeetah/static/media/pexels-photo-1065084.e4ff9726fe45aaf53a84.jpg",
+    "static/media/dc.png": "/shoeetah/static/media/dc.ccd091e90cb689c2dda0.png",
+    "static/media/converse.jpg": "/shoeetah/static/media/converse.4f02f49a5cfa430a379d.jpg",
+    "static/media/pexels-photo-1334945.jpg": "/shoeetah/static/media/pexels-photo-1334945.6ee3a8c46a3faac3125b.jpg",
+    "static/media/allstar_converse.jpg": "/shoeetah/static/media/allstar_converse.2f1e6186287e7411279d.jpg",
+    "static/media/pexels-italo-melo-2379004.jpg": "/shoeetah/static/media/pexels-italo-melo-2379004.968b00471a0abdf14500.jpg",
+    "static/media/pexels-photo-2335132.jpg": "/shoeetah/static/media/pexels-photo-2335132.9fe44240e24e7ecf4442.jpg",
+    "static/media/pexels-photo-1239291.jpg": "/shoeetah/static/media/pexels-photo-1239291.b5b208892408157c9202.jpg",
+    "static/media/pexels-photo-977796.jpg": "/shoeetah/static/media/pexels-photo-977796.4000ff47ed1627d07794.jpg",
     "static/media/adidas_superstar.jpg": "/shoeetah/static/media/adidas_superstar.53730e529b605dd832d2.jpg",
+    "static/media/converse.png": "/shoeetah/static/media/converse.bb29670481c04b52ba14.png",
+    "static/media/vans_skate.jpg": "/shoeetah/static/media/vans_skate.0f05baaed6c93744b2a4.jpg",
+    "static/media/adidas_goldsuperstar.jpg": "/shoeetah/static/media/adidas_goldsuperstar.f2e478fa4989c0ac8a13.jpg",
+    "static/media/vans_oldskool.jpg": "/shoeetah/static/media/vans_oldskool.78375d0b7f6a8dc71e54.jpg",
+    "static/media/nike_highheeled.jpg": "/shoeetah/static/media/nike_highheeled.87477fc9cf2785d01acd.jpg",
+    "static/media/vans.png": "/shoeetah/static/media/vans.0f888b95b6fd5c2a1c70.png",
+    "static/media/airforce_nike.jpg": "/shoeetah/static/media/airforce_nike.a331647fce9603178d25.jpg",
+    "static/media/puma_sneaker.jpg": "/shoeetah/static/media/puma_sneaker.321d1690cc5974dd926c.jpg",
+    "static/media/under_armor.png": "/shoeetah/static/media/under_armor.9c524a1c47167b63ceab.png",
+    "static/media/adidas.png": "/shoeetah/static/media/adidas.0716682d0ccf4adc2278.png",
+    "static/media/puma.png": "/shoeetah/static/media/puma.588e39e5014a13ba6392.png",
     "index.html": "/shoeetah/index.html",
-    "main.4a97735f.css.map": "/shoeetah/static/css/main.4a97735f.css.map",
-    "main.3afecc1e.js.map": "/shoeetah/static/js/main.3afecc1e.js.map"
+    "static/media/hero-bg.svg": "/shoeetah/static/media/hero-bg.c6382c0c8ea41e604024.svg",
+    "static/media/hero-bg2.svg": "/shoeetah/static/media/hero-bg2.7a1124e4d1446df964ec.svg",
+    "main.fce55945.css.map": "/shoeetah/static/css/main.fce55945.css.map",
+    "main.feb31ca5.js.map": "/shoeetah/static/js/main.feb31ca5.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a97735f.css",
-    "static/js/main.3afecc1e.js"
+    "static/css/main.fce55945.css",
+    "static/js/main.feb31ca5.js"
   ]
 }
